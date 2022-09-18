@@ -1,4 +1,5 @@
 const fs = require('fs')
+require('dotenv').config()
 const port = process.env.PORT || 8080
 const fastify = require('fastify')()
 fastify.register(require('@fastify/cors'), {
