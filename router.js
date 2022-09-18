@@ -19,7 +19,7 @@ fastify.get(
 )
 const start = async () => {
     try {
-        await fastify.listen({port, host: '0.0.0.0'})
+        await fastify.listen({port : port})
         console.log("application started on port: " + port)
     } catch (err) {
         fastify.log.error(err)
