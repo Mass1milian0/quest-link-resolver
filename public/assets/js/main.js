@@ -4,6 +4,6 @@ const URLinput = document.querySelector('.URL-input');
 const body = document.querySelector('body');
 const result = document.createElement('p');
 convertBtn.addEventListener('click', async() => {
-    result.innerHTML = `${host}/convert?url=${URLinput.value}`
+    result.innerHTML = `${host}convert?url=${URLinput.value}`
     body.appendChild(result)
 }); 
