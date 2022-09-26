@@ -21,3 +21,13 @@
     background: #0485ff;
     color:white;
 }
+.copy-button{
+    font-size:1.3em;
+    padding:5px 10px;
+    border-radius:4px;
+    border:2px solid #0485ff;
+    background: #0485ff;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
