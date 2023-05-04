@@ -13,7 +13,8 @@ module.exports = {
         }
         reply.header('Content-Disposition', 'attachment; filename="video.mp4"');
         let rs = ytdl(url, {
-            format: 'mp4'
+            format: 'mp4',
+            filter: 'audioandvideo'
         });
         reply.send(rs)
     }
